@@ -33,6 +33,7 @@
   "columnOrder": [],
   "columnUpdatedAt": 1729415612207,
   "columnWidthMap": {},
+  "compactMode": "DEFAULT",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
@@ -48,9 +49,17 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -59,9 +68,9 @@
   "isSortable": true,
   "isVisible": true,
   "isVisibleDownload": true,
-  "isVisibleFilters": false,
+  "isVisibleFilters": true,
   "isVisiblePagination": true,
-  "isVisibleSearch": true,
+  "isVisibleSearch": false,
   "key": "jh8mv2ien1",
   "label": "Data",
   "leftColumn": 25,
@@ -70,6 +79,7 @@
   "mobileLeftColumn": 25,
   "mobileRightColumn": 55,
   "mobileTopRow": 1,
+  "multiRowSelection": true,
   "needsErrorInfo": false,
   "parentColumnSpace": 13.78125,
   "parentId": "0",
@@ -79,7 +89,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 55,
   "searchKey": "",
-  "tableData": "",
+  "tableData": "{{Api1.data}}",
   "textSize": "0.875rem",
   "topRow": 1,
   "totalRecordsCount": 0,
